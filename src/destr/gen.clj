@@ -140,4 +140,6 @@
 
   (normalize-destructuring (destructure rf-in))
 
+  (destructure '[{{seen :state/seen, :as lvl} :level, {[x y] :state/pos, :as player} :player, :as game-state} state])
+
 )
